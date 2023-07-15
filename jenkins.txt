@@ -1,0 +1,2 @@
+cd D:\SeleniumOnline\Vasudeva
+java -cp D:\SeleniumOnline\Vasudeva\jars\*;D:\SeleniumOnline\Vasudeva\bin org.testng.TestNG D:\SeleniumOnline\Vasudeva\TestNg.xml

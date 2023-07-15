@@ -1,0 +1,103 @@
+
+OOPs:
+--------
+To develop an Application we require a programming language which uses one of the following concepts
+
+1.Procedure oriented programming concepts
+2.object oriented programming concepts
+
+1.Procedure oriented programming concepts
+ A language is said to be procedure oriented language, if the applications are developed
+ with the help of procedures or functions
+Examples of Procedure oriented languages: C,Pascal,Cobal,Fortran etc..
+2.Object oriented programming concepts
+
+The applications that are developed with the help of Objects and Classes are said to follow
+Object oriented programming concepts
+  Examples of Procedure oriented languages: Java ,C++,.net etc..
+
+Object:
+Any entity that exists physically in the real world which requires some memory will be
+ called as an object.Every object will contains some properties and some actions.the properties are the data or information which describes the object and they
+are represents by variables.Actions are the tasks or the operations performed by the objects and they are represented by methods
+
+Class:
+A Class is a collection of common properties and common actions of a group of objects
+
+A Class can be considered as a plan or a model or a blue print for creating an object.For a class we can creat any number of objects ,with out the class object creation
+is not possible.An Object  is an instance of a class.
+
+The Various object oriented concepts are
+
+1) Encapsulations-- putting together variables and methods in a class
+2) Inheritance--    code reusability
+3) Polymorphism  --  Many forms
+4) Abstraction --- some thing which is unknown
+
+
+1) Encapsulations-- 
+-----------------------------
+
+ It is a process of binding the variables and methods in to  single entity (class)
+
+Encapsulation in java is a process of wrapping code and data together into a single unit,
+ for example capsule i.e. mixed of several medicines.
+
+
+ polymorphism:
+----------------------------
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a 
+parent class reference is used to refer to a child class object.
+
+Following concepts demonstrate different types of polymorphism in java.
+1) Method Overloading (compile time)
+2) Method Overriding (Runtime)
+
+Method Definition:
+A method is a set of code which is referred to by name and can be called (invoked) at any point in a program simply by utilizing the method’s name.
+
+1)Method Overloading:
+In Java, it is possible to define two or more methods of same name in a class, provided that there argument list or parameters are different. 
+This concept is known as Method Overloading.
+
+2) Method Overriding
+
+Child class has the same method as of base class. In such cases child class overrides the parent class method without even touching the source code of the 
+base class. 
+This feature is known as method overriding.
+
+
+2) Inharitance
+----------------------------------------
+acquiring the members from one class to another class..
+
+Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. 
+With the use of inheritance the information is made manageable in a hierarchical order.
+
+The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited 
+is known as superclass (base class, parent class).
+
+single inharitance ( one parent class and one child class)
+
+ and multilevel inharitance  (one child class and one child class and one or more intermediate clases[acts as a both parent and child class])
+
+
+Note: Multiple inheritance is not supported in java through class.
+
+
+super keyword
+
+In Java, super keyword is used to refer to immediate parent class of a class. In other words super keyword is used by a subclass whenever it need to 
+refer to its immediate super class.
+
+
+
+Abstract class in Java:
+----------------------------------------
+
+A class that is declared with abstract keyword, is known as abstract class in java. It can have abstract and non-abstract methods (method with body).
+
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+Another way, it shows only important things to the user and hides the internal details.
+
